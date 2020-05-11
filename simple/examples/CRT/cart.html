@@ -10,11 +10,11 @@
 
 <body >
 <script>
-
+const parentDocument=window.parent.document;
  document.getElementById("eqq").innerHTML=
- sessionStorage.getItem("winery-cart")+"<br>"+
- sessionStorage.getItem("inery-shipping-rates")+"<br>"+
- sessionStorage.getItem("winery-total");
+ parentDocument.sessionStorage.getItem("winery-cart")+"<br>"+
+ parentDocumentsessionStorage.getItem("inery-shipping-rates")+"<br>"+
+ parentDocument.sessionStorage.getItem("winery-total");
 
 
 </script>
