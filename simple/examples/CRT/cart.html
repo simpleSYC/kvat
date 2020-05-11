@@ -17,9 +17,9 @@ const parentDocument=window.parent.document;
 
 function loadSS(){
  document.getElementById("eqq").innerHTML=
- parentDocument.sessionStorage.getItem("winery-cart")+"<br>"+
- parentDocument.sessionStorage.getItem("inery-shipping-rates")+"<br>"+
- parentDocument.sessionStorage.getItem("winery-total");
+ sessionStorage.getItem("winery-cart")+"<br>"+
+ sessionStorage.getItem("inery-shipping-rates")+"<br>"+
+ sessionStorage.getItem("winery-total");
 }
 
 </script>
