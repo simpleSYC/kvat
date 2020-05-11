@@ -8,14 +8,19 @@
 <script type="text/javascript" src="js/jquery.shop.js"></script>
 </head>
 
-<body >
+
+<body onload="loadSS();">
 <script>
 const parentDocument=window.parent.document;
+
+//const data1= parentDocument.
+
+function loadSS(){
  document.getElementById("eqq").innerHTML=
  parentDocument.sessionStorage.getItem("winery-cart")+"<br>"+
- parentDocumentsessionStorage.getItem("inery-shipping-rates")+"<br>"+
+ parentDocument.sessionStorage.getItem("inery-shipping-rates")+"<br>"+
  parentDocument.sessionStorage.getItem("winery-total");
-
+}
 
 </script>
 <div id="site">
